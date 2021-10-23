@@ -118,7 +118,7 @@ function validate_input($str) {
 
         <fieldset>
             <legend>
-                <label for="gender">Gender</label>
+            <label for="gender">Gender</label>
             </legend>
             <input type="radio" name="gender" value="male" id="male"<?php echo ($gender == "male") ? " checked": ""; ?>><label for="male">Male</label>
             <input type="radio" name="gender" value="female" id="female"<?php echo ($gender == "female") ? " checked": ""; ?>><label for="female">Female</label>
